@@ -1,10 +1,11 @@
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
 }
 
 body {
     background-color: #FFEDD5;
+    /* background-image: url("./wallpaperCoffee.jpg"); */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,16 +19,30 @@ h1, h2, h3, .price {
     color: #2D2C2A;
 }
 
-header {
-    padding: 32px 0;
+/* header {
+   padding: 32px 0;
    text-align: center;
-}
+   margin-bottom: 240px;
+   border-radius: 4px;
+} */
 
 header,
 section {
     max-width: 300px;
     margin: 0 auto;
+    background-color: #FFEDD5; 
+    border-radius: 10px;
+    border: solid 3px #eb8211a1; /*Adicionei 3px*/
+    box-shadow: 15px 15px 10px #994f00a1;
+    margin-bottom: 24px;
 }
+
+header {
+    padding: 32px 0;
+    text-align: center;
+    margin-top: 10px; /*Adicionei*/
+    margin-bottom: 24px;
+ }
 
 header h1 {
     margin-bottom: 4px;
@@ -46,10 +61,11 @@ header p {
 
     color: rgba(0, 0, 0, 0.7);
 
-}
 
+}
+ 
 section {
-    margin-bottom: 24px;
+    margin-top: 3px; /*-adicionei-*/
 }
 
 section h2 {
@@ -59,6 +75,8 @@ section h2 {
 
     margin-bottom: 24px;
     font-size: 18px;
+    border-radius: 10px 10px 0 0; /*-adicionei-*/
+
 }
 
 ul li {
@@ -74,6 +92,7 @@ li .details {
     margin-bottom: 8px;
     font-size: 16px;
     line-height: 19px;
+    margin-left: 8px; 
 
 }
 
@@ -81,4 +100,6 @@ li .details {
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
     line-height: 21px;
+    margin-left: 8px; 
+
 }
